@@ -6,10 +6,7 @@
 // lat: 47.655
 // lng: -122.3080
 
-var mapOptions = {
-	center: {lat:47.655, lng: -122.3080},
-	zoom:14;
-}
+var mapOptions = {center: {lat:47.655, lng: -122.3080},zoom:14};
 
 var mapElem = document.getElementById('map');
 
@@ -17,7 +14,7 @@ var map = new google.maps.Map(mapElem, mapOptions);
 
 var position = {
 	lat:47.655,
-	long: -122.3080
+	lng: -122.3080
 }
 var marker = new google.maps.Marker({
 	position:position,
